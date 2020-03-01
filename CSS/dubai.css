@@ -1,0 +1,130 @@
+/*html*/
+
+html {
+    background-color: #00072D;
+}
+
+
+/*nav*/
+
+ul {
+    list-style: none;
+    margin: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    border-bottom: 2px #FFA265 solid;
+    border-top: 2px #FFA265 solid;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+#accueil {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border-left: 8px #FFA265 solid;
+    border-bottom: 8px #FFA265 solid;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    color: #FFA265;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-left: 7px #FFA265 solid;
+    border-bottom: 6px #FFA265 solid;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#active {
+    background-color: #f1f1f1;
+}
+
+
+/*header*/
+
+.header {
+    height: 500px;
+    width: 1000px;
+    background-image: url(images/banner-dubai.jpg);
+    background-size: 100%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#titre {
+    margin-top: 50px;
+    border: solid 2px #FFA265;
+}
+
+
+/*content*/
+
+p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dubai1 {
+    display: flex;
+    border-bottom: 2px #FFA265 solid;
+    border-top: 2px #FFA265 solid;
+}
+
+#dubai1 {
+    height: 400px;
+    width: 400px;
+}
+
+#icon {
+    height: 200px;
+    width: 200px;
+    border-bottom: solid 3px #FFA265;
+}
+
+.article {
+    height: auto;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px #FFA265 solid;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    display: block;
+    color: white;
+    text-align: center;
+}
