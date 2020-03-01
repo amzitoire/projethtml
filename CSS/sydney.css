@@ -128,3 +128,11 @@ h3 {
     color: white;
     text-align: center;
 }
+video{
+    height: 800px;
+    width: 1020px;
+}
+#video {
+    display: flex;
+    justify-content: center;
+}
